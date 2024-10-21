@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="formulário.png" type="image/png">
+</head>
+<body style="background-color: rgb(248, 204, 248);color:black; font-size: 50px">
+
+    <!-- Inicio do formulário com método POST-->
+   <center>
+    <H1>Cadastro</H1>
+    <form action="/submit" method="POST">
+
+     <!-- Campo de texto para o nome do usuário -->
+     <label for="Name">Nome:</label>
+        <input type="text" id="Name" name="Name"
+        placeholder="seu nome"><br>
+
+        <!-- Campo de e-mail com placeholder orientado o formato de e-mail esperando-->
+        <label for="Email">Email:</label>
+        <input type="Email" id="Email" name="Email" 
+        placeholder="exemplo@dominio.com"><br>
+
+        <!-- Campo de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br>
+
+        <!-- seleção de genero-->
+        <label for="genero">Genero:</label>
+        <select id="genero" name="genero">
+        <option value="masculino">Masculino</option><br>
+        <option value="feminino">Feminino</option><br>
+        <option value="outros">Outros</option><br>
+        </select><br>
+
+        <!-- Campo para seleção de data-->
+        <label for="data">Data:</label>
+        <input type="data" id="data" name="data"><br>
+
+        <!-- Botão para envio do formulário-->
+        <button type="submit">Enviar</button><br>
+
+    </form>
+    
+    <button onclick="window.location.
+    href='EstruturaSemanticaHtml.html';">Entrar no Site?</button>
+</center> 
+</body>
+</html>
